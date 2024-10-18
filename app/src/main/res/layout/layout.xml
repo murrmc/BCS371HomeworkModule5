@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/Answer1"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Goku" />
+
+        <RadioButton
+            android:id="@+id/Answer2"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Luffy" />
+
+        <RadioButton
+            android:id="@+id/Answer3"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Naruto" />
+
+        <RadioButton
+            android:id="@+id/Answer4"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:checked="false"
+            android:text="Ichigo" />
+    </RadioGroup>
+</LinearLayout>
